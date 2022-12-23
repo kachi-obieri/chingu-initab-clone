@@ -1,0 +1,19 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    background-color: white;
+}
+.heading{
+    color: #44475A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+}
