@@ -2,15 +2,71 @@ html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
+    font-family: Inconsolata, monospace, sans-serif;
 }
 body{
     color: #757575;
     font-size: 16px;
     line-height: 28px;
     font-weight: 300;
-    background-color: white;
+    background-image:url("../images/texture.png");
+    background-color: #282A36;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
 }
-.heading{
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 70px 0px 70px;
+}
+
+.nav-link{
+    display: flex;
+    font-size: 12px;
+    font-family: Inconsolata, monospace, sans-serif;
+    line-height: 18px;
+    font-weight: 300;
+    color: #000000;
+    background-color: white;
+    align-items: center;
+    text-decoration: none;
+    padding: 7px 17px 7px 17px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.heading1{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #ffffff;
+    margin-top: 65px;
+    
+}
+.heading2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #fff;
+}
+.span1{
+    color: #6272a4;
+}
+.span2{
+    color: #ff79c6;
+}
+.showcase-initab{
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+}
+.heading-abt{
     color: #44475A;
     font-family: 'Open Sans', sans-serif;
     font-size: 32px;
